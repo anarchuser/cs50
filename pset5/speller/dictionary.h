@@ -11,10 +11,10 @@
 #define LENGTH 45
 
 // Trie definition (Dictionary struct)
-typedef struct tries
+typedef struct _Trie
 {
     bool eot;
-    struct tries *next[27];
+    struct _Trie * next[27];
 }
 Trie;
 
