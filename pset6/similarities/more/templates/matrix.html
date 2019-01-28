@@ -3,7 +3,7 @@
 {% block body %}
     <table>
         <tr>
-            <th></th>
+            <th><a href="../"><><a/></a></th>
             <th> 0 </th>
             {% for char in s2 %}
                 <th> {{ char }} </th>
@@ -26,4 +26,11 @@
         {% endfor %}
 
     </table>
+
+    <form>
+        <button type="submit" formaction="../">
+            Return
+        </button>
+    </form>
+
 {% endblock %}

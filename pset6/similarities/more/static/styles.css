@@ -42,7 +42,7 @@ div.col
 /* add padding around form */
 form
 {
-    padding: 15px;
+    padding: 16px;
 }
 
 /* right-align leftmost column in matrix */
@@ -53,21 +53,49 @@ div.row:first-of-type th:first-child
 }
 
 /* don't wrap rows in log */
+body
+{
+    background-color: #000000;
+    color: #dddddd;
+}
+
 th, td
 {
     white-space: nowrap;
-    width: 60px;
+    width: 50px;
 }
 
 table, th, td
 {
-    border: 1px solid black;
+    border: 1px solid #00aaaa;
     border-collapse: collapse;
+}
+
+th
+{
+    border: 2px solid #888888;
+}
+
+td
+{
+    text-align: center;
+}
+
+button
+{
+    background-color: #222222;
+    border: 1px solid #333333;
+    color: #888888;
+}
+button:hover {
+  background-color: #285577;
+  border: 1px solid #4c7899;
+  color: #ffffff;
 }
 
 span.badge
 {
-    margin-left: 15px;
+    margin-left: 60px;
 }
 
 /* highlight spans */
